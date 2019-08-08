@@ -1,0 +1,182 @@
+<!-- This Boiler Plate shortcut is, after typing "html" press the Tab Button. -->
+ <!-- Here is a Comment. We can do this by "control" + "/" buttons pressed together. -->
+
+<!DOCTYPE html>
+ 	<!-- Doctype signifies the usage of HTML5. -->
+<html>
+ <head>
+	<!-- Metadata goes in the Head. -->
+	<title>My first Webpage.</title>
+		<!-- Title is the Name higlighted in the navigation bar at the top for any website. -->
+	 	<!-- Eeverything that has begining has to end with the same tag with an / added in between for example :- 'Header begins with this <head> and ends with this </head>.' -->
+ </head>
+ <body>
+	<!-- Content goes in the body. -->
+	<h1 style="font-size: 50px"><strong><u>My Webpage</u></strong></h1>
+	
+	<h1>
+		Knowing about various types of 'Tags'.
+	</h1>
+		<h4>For Example -</h4>
+		<h1>This is Tag1.</h1>
+	    <!--The elements h1,h2,h3.etc. marks the size of the content and is used for the header tag.  -->
+	    <!-- style=font-size: NOpx can be used to increase the size of content via HTML {This should be avoided since all the   styling should only be done in CSS. } -->
+		<h2> This is Tag2.</h2>
+		<h3>This is Tag3.</h3>
+
+	<h1>Knowing about 'Paragraphs'.</h1>
+
+		<p> Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit</strong>, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		<em>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</em> commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+			<!-- <p> is the tag of paragraph and it is a 'Block Level Element'. 
+				{ Note :- 
+					Block Level Element means that it takes a separate line and creates a new paragraph.On the other hand, Inline Elements donot change the line just change the property of the text. Example:- strong and em element.} -->
+			<!-- <strong> or <b> elements are used to make texts bolder. For better Semantic Markup prefer <strong> over <b>. -->
+			<!-- <em>(Emphasis) or <i> elements are used to make the text Italic. For better Semantic Markup use <em> over <i>. -->
+			<!-- <u> is used to underline the texts. -->
+			<!-- You can bring this content of Lorem Ipsum by typing lorem and then just hitting the Tab button. -->
+
+	<h1>Knowing About 'Lists'.</h1>
+		      <!-- There are two types of Lists :- 1)Ordered List{Represented by <ol>}, 2)Unordered List{Represented by <ul>}-->
+		      	<!-- Each list requires List elements{Represented by <li>} without which we cannot make any list  -->
+		<h2>1)Ordered List-</h2>
+			<h3>List of Fruits:-</h3>
+				<ol>
+					<li>Apple</li>
+					<li>Mango</li>
+					<li>Grapes</li>
+					<li>Banana
+						<ul>
+							<li>Bhusawal Banana</li>
+							<li>Hazipur Banana</li>
+						</ul>
+					</li>
+				</ol>
+		
+		<h2>2)Unordered List-</h2>
+			<h3>List of Colours:-</h3>
+				<ul>
+					<li>Red</li>
+					<li>Blue</li>
+					<li>Green</li>
+					<li>Yellow
+						<ol>
+							<li>Olive Yellow</li>
+							<li>Sunflower Yellow</li>
+						</ol>
+					</li>
+				</ul> 
+					<!-- We can create Nested List just by adding the new list into the list element of content in which we want to nest another list.  -->
+
+	<h1>Knowing about 'Div' and 'Span'.</h1>
+		<!-- 1)Div{Represented by <div>} is a Generic Container and a block level element. -->
+		<!-- 2)Span{Represented by <span>} is a Generic Inline Container.  -->
+			<h2>Div</h2>
+					Lorem ipsum dolor sit amet,<div> consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris</div> nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			<h2>Span</h2>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.<span> Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</span>
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+	<h1>Knowing about 'Attributes'.</h1>
+		<!--Attributes are used to give additional information to the tags. 
+			They usually come in name/value pairs like: name="value".  -->
+		<h2>Source Attribute</h2>
+			<!-- The URL of embeddedable content. -->
+			<img src="https://i.pinimg.com/originals/a0/30/18/a030180d5ee85e914f60743dfa85b19a.jpg">
+		<h2>HTML References</h2>
+			<!-- The URL of a linked resource. -->
+			<a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee"><strong>Wikipedia</strong></a>
+
+	<h1>Knowing about 'Tables'.</h1>
+		<!-- An HTML table is defined with the <table> tag.
+			 Each table row is defined with the <tr> tag. A table header is defined with the <th> tag. By default, table headings are bold and centered. A table data/cell is defined with the <td> tag. -->
+		<table border="2">
+			<th>Periodic Table</th>
+					<td>Helium</td>
+				<tr>
+					<th>P-block 1st Row</th>
+					<td>Boron</td>
+					<td>Carbon</td>
+					<td>Nitrogen</td>
+					<td>Oxygen</td>
+					<td>Fluorine</td>
+					<td>Neon</td>	
+				</tr>
+				<tr>
+					<th>P-block 2nd Row</th>
+					<td>Aluminium</td>
+					<td>Silicon</td>
+					<td>Phosphorus</td>
+					<td>Sulphur</td>
+					<td>Chlorine</td>
+					<td>Argon</td>
+				</tr>
+		</table>
+				<!-- Using border inside <table> was done earlier for HTML4 and now it is done in CSS.   -->
+				<!-- To make the Table look alittle more presentable in the code{since it won't effect the output}, we cand put the <th> part into <thead> and the rest of the part into <tbody>. -->
+
+	<h1>Knowing about 'Forms'.</h1>
+		<!-- The HTML <form> element defines a form that is used to collect user input. It is a block-level element. -->
+			<h2>Sample Form</h2>
+			<form action="https://en.wikipedia.org/wiki/Edsger_W._Dijkstra" method="GET">
+				<!-- Action- Where the form sends data to. -->
+				<!-- Method- What HTTP method (get/post) is used. -->
+				<label><h3>Username: <input type="text" name="Name" placeholder="Name"></h3></label>
+										<!-- The <input> element is the most important form element.
+					 	 					 The <input> element can be displayed in several ways, depending on the type attribute. -->
+					 					<!-- The 'type' tag identifies the property of the input. -->
+					 					<!-- "text" creates a text box to take input. -->
+										<!-- The <label> tag represents a caption for an item in a user interface. -->
+										<!-- The <placeholder> tag puts up the content as watermarks in input box. -->
+									<label><h3>Age: <input type="text" name="Age" placeholder="Age"></h3></label>
+									<label><h3>Gender- </h3></label>
+										<label for="M">Male: </label>
+										<input type="radio" name="G" id="M">
+										<label for="F">Female: </label>
+										<input type="radio" name="G" id="F">
+										<label for="T">Transgender: </label>
+										<input type="radio" name="G" id="T">
+										<label for="N">Don't wish to tell: </label>
+										<input type="radio" name="G" id="N">
+											<!-- The tags 'for' and 'id' connects the two statements.-->
+											<!-- "radio" creates a radio button for input. -->
+											<!-- the tag 'name' connects all the statements which helps to give only one input when asked among multiple choices. -->
+					 				<label><h3>Color: <input type="color" name="Color"></h3></label>
+					 					<!--"color" creates a dropdown box to select one color amog the various choices. -->
+					 				<label><h3>Email Id: <input type="email" name="Email" placeholder="Email" required></h3></label>
+					 					<!-- "email" conditions the text box to take input only in email format. -->
+					 				<label><h3>Password: <input type="password" name="Password" placeholder="Password" required></h3></label>
+					 					<!-- "password" conditions the text box to hide the input after it is typed. -->
+					 					<!-- Here the 'required' attribute makes it mandatory for the user to fill the information asked for.  -->
+									<label><h3>Profession: 
+					 					<select name="Profession">
+					 						<!-- <select> tag creates a dropdown menu in which alot of options are their and we 	can chose any one out of them. -->
+											<!-- <option> tag inside the <select> creates the required options of the menu. -->
+					 						<option>Student</option>
+					 						<option>Professor</option>
+					 						<option>Administrative Staff</option>
+					 						<option>Other Staff</option>
+										</select></h3></label>
+									<label><h3>Leave a Comment Here: <textarea name="Comment" rows="5" cols="50"></textarea></h3></label>
+										<!--  The <textarea> tag defines a multi-line text input control.-->
+							<button><strong>Submit Here</strong></a>
+					 		</button>
+					 			<!-- The <button> tag creates the button of the text. -->
+
+			</form>
+ </body> 
+</html>
+
